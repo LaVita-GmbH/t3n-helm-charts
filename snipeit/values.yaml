@@ -88,6 +88,8 @@ persistence:
   sessions:
     mountPath: /var/www/html/storage/framework/sessions
     subPath: sessions
+  uid: 10000
+  gid: 50
 
 ingress:
   enabled: true
